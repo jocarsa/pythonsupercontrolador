@@ -146,7 +146,6 @@ entrada1.pack(padx=5,pady=5)
 botonenviar = tk.Button(formulario,text="Enviar",command=enviaFormulario)
 botonenviar.pack(padx=5,pady=5)
 
-# Set column and row weights to distribute the space
 ventana.grid_columnconfigure(0, weight=10)
 ventana.grid_columnconfigure(1, weight=80)
 ventana.grid_columnconfigure(2, weight=10)
